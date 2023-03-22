@@ -14,6 +14,7 @@ public class HomePage {
 		// pageFactory help to instantiate WedElements
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(xpath = "//span[text()='Women']")
 	WebElement womanButton;
 
